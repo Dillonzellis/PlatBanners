@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+  </head>
+  <body class="bg-slate-700 text-white">
+    <!-- Slider main container -->
+    <div class="bg-brandingGreen-400">
+      <div class="swiper max-w-[1920px]">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide min-h-350 bg-brandingGreen-400">
+            <div class="mx-auto flex max-w-[1500px]">
+              <div
+                class="content absolute top-1/2 z-50 flex w-full max-w-[50rem] -translate-y-1/2 flex-col gap-2 px-2 text-center text-white md:top-1/2 md:-translate-y-1/2 md:gap-y-4 md:px-8 md:text-left"
+              >
+                <div
+                  class="font-serif text-2xl font-semibold md:text-3xl lg:text-5xl"
+                >
+                  Navros Ceritificate of Deposits Special
+                </div>
+                <div class="font-serif text-lg lg:text-2xl">
+                  Welcome the New Year with a Limited Time CD Special
+                </div>
+                <div
+                  class="font-serif text-2xl font-black md:text-3xl lg:text-5xl"
+                >
+                  4.06% <span class="lg:text-2xl">APY*</span>
+                </div>
+                <div class="hidden font-serif md:text-2xl xl:block">
+                  Choose your term through March 31, 2023!
+                </div>
+                <div class="hidden font-serif md:text-xl">
+                  9 months or 18 months
+                </div>
+                <div class="">
+                  <a
+                    class="inline-flex items-center rounded-md bg-brandingRed-400 px-2 py-2 font-bold capitalize text-white shadow-md transition-all ease-in-out hover:scale-110 md:text-lg"
+                    href="http://"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >learn more</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="overlay absolute z-10 h-full w-full bg-black/75 md:hidden"
+            ></div>
+            <img
+              src="../public/feb-banner.jpg"
+              class="hidden md:block"
+              alt=""
+              srcset=""
+            />
+            <div class="absolute flex h-full items-center">
+              <img
+                src="../public/plat feb img isolate 1.png"
+                class="md:hidden"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+          <div class="swiper-slide min-h-350 bg-brandingGreen-400">
+            <div class="mx-auto flex max-w-[1500px]">
+              <div
+                class="content absolute top-1/2 z-50 flex w-full max-w-[50rem] -translate-y-1/2 flex-col gap-2 px-2 text-center text-white md:top-1/2 md:-translate-y-1/2 md:gap-y-4 md:px-8 md:text-left"
+              >
+                <div
+                  class="font-serif text-2xl font-semibold md:text-3xl lg:text-5xl"
+                >
+                  Empowering the Next Generation of Leaders
+                </div>
+                <div class="font-serif text-lg lg:text-2xl">
+                  Application Deadline: March 26, 2023
+                </div>
+                <div class="mt-4">
+                  <a
+                    class="inline-flex items-center rounded-md bg-brandingRed-400 px-2 py-2 font-bold capitalize text-white shadow-md transition-all ease-in-out hover:scale-110 md:text-lg"
+                    href="http://"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >apply today</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="overlay absolute z-10 h-full w-full bg-black/75 md:hidden"
+            ></div>
+            <img
+              src="../public/scholarship-new.jpg"
+              class="hidden md:block"
+              alt=""
+              srcset=""
+            />
+            <div class="absolute flex h-full items-center">
+              <img
+                src="../public/scholarship-new-mobile.jpg"
+                class="md:hidden"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        direction: "horizontal",
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+      });
+    </script>
+  </body>
+</html>

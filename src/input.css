@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer base {
+  @font-face {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+} */
+
+.swiper-pagination-bullet-active {
+  background-color: #b2191e !important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  visibility: hidden;
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    visibility: visible;
+  }
+}
+
+@media (max-width: 768px) {
+  .min-h-350 {
+    min-height: 350px;
+  }
+}
