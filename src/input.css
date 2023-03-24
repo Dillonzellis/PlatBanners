@@ -38,3 +38,9 @@
 .text-shadow-0 {
   text-shadow: none;
 }
+
+@media (max-width: 768px) {
+  .flex-col-reverse-max {
+    flex-direction: column-reverse;
+  }
+}
