@@ -107,40 +107,40 @@
 
 
 
-    <div class="bg-brandingGreen-400" style="margin-top:80px">
-      <div class="swiper max-w-[1920px]">
+    <div class="tw-bg-brandingGreen-400" style="margin-top: 80px">
+      <div class="swiper tw-max-w-[1920px]">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
           <div
-            class="swiper-slide min-h-350 text-shadow bg-brandingGreen-400"
+            class="swiper-slide min-h-350 text-shadow tw-bg-brandingGreen-400"
           >
-            <div class="mx-auto flex max-w-[1500px]">
+            <div class="tw-mx-auto tw-flex tw-max-w-[1500px]">
               <div
-                class="content absolute top-1/2 z-50 flex w-full max-w-[50rem] -translate-y-1/2 flex-col gap-2 px-2 text-center-tw text-white md:top-1/2 md:-translate-y-1/2 md:gap-y-4 md:px-8 md:text-left"
+                class="content tw-absolute tw-top-1/2 tw-z-50 tw-flex tw-w-full tw-max-w-[50rem] tw--translate-y-1/2 tw-flex-col tw-gap-2 tw-px-2 tw-text-center tw-text-white md:tw-top-1/2 md:tw--translate-y-1/2 md:tw-gap-y-4 md:tw-px-8 md:tw-text-left"
               >
                 <div
-                  class="font-serif text-2xl font-semibold md:text-3xl lg:text-5xl"
+                  class="tw-font-serif tw-text-2xl tw-font-semibold md:tw-text-3xl lg:tw-text-5xl"
                 >
                   Navros Ceritificate of Deposits Special
                 </div>
-                <div class="font-serif text-lg lg:text-2xl">
+                <div class="tw-font-serif tw-text-lg lg:tw-text-2xl">
                   Welcome the New Year with a Limited Time CD Special
                 </div>
                 <div
-                  class="font-serif text-2xl font-black md:text-3xl lg:text-5xl"
+                  class="tw-font-serif tw-text-2xl tw-font-black md:tw-text-3xl lg:tw-text-5xl"
                 >
-                  4.06% <span class="lg:text-2xl">APY*</span>
+                  4.06% <span class="lg:tw-text-2xl">APY*</span>
                 </div>
-                <div class="hidden font-serif md:text-2xl xl:block">
+                <div class="tw-hidden tw-font-serif md:tw-text-2xl xl:tw-block">
                   Choose your term through March 31, 2023!
                 </div>
-                <div class="hidden font-serif md:text-xl">
+                <div class="tw-hidden tw-font-serif md:tw-text-xl">
                   9 months or 18 months
                 </div>
-                <div class="" style="margin-top:0.75rem">
+                <div class="">
                   <a
-                    class="text-shadow-0 inline-flex items-center rounded-md bg-brandingRed-400 px-2 py-2 font-bold capitalize text-white shadow-md transition-all ease-in-out hover:scale-110 md:text-lg"
+                    class="text-shadow-0 tw-inline-flex tw-items-center tw-rounded-md tw-bg-brandingRed-400 tw-px-2 tw-py-2 tw-font-bold tw-capitalize tw-text-white tw-shadow-md tw-transition-all tw-ease-in-out hover:tw-scale-110 md:tw-text-lg"
                     href="http://"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -150,41 +150,43 @@
               </div>
             </div>
             <div
-              class="overlay absolute z-10 h-full w-full bg-black/75 md:hidden"
+              class="overlay tw-absolute tw-z-10 tw-h-full tw-w-full tw-bg-black/75 md:tw-hidden"
             ></div>
             <img
               src="./images/swiper-banner/feb-banner.jpg"
-              class="hidden md:block"
+              class="tw-hidden tw-w-full md:tw-block"
               alt=""
               srcset=""
             />
-            <div class="absolute flex h-full items-center">
+            <div
+              class="[mobile] tw-absolute tw-flex tw-h-full tw-w-full tw-items-center"
+            >
               <img
                 src="./images/swiper-banner/plat feb img isolate 1.png"
-                class="h-full object-cover md:hidden"
+                class="tw-h-full tw-w-full tw-object-cover md:tw-hidden"
                 alt=""
                 srcset=""
               />
             </div>
           </div>
           <div
-            class="swiper-slide min-h-350 text-shadow bg-brandingGreen-400"
+            class="swiper-slide min-h-350 text-shadow tw-bg-brandingGreen-400"
           >
-            <div class="mx-auto flex max-w-[1500px]">
+            <div class="tw-mx-auto tw-flex tw-max-w-[1500px]">
               <div
-                class="content absolute top-1/2 z-50 flex w-full max-w-[50rem] -translate-y-1/2 flex-col gap-2 px-2 text-center-tw text-white md:top-1/2 md:-translate-y-1/2 md:gap-y-4 md:px-8 md:text-left"
+                class="content tw-absolute tw-top-1/2 tw-z-50 tw-flex tw-w-full tw-max-w-[50rem] tw--translate-y-1/2 tw-flex-col tw-gap-2 tw-px-2 tw-text-center tw-text-white md:tw-top-1/2 md:tw--translate-y-1/2 md:tw-gap-y-4 md:tw-px-8 md:tw-text-left"
               >
                 <div
-                  class="font-serif text-2xl font-semibold md:text-3xl lg:text-5xl"
+                  class="tw-font-serif tw-text-2xl tw-font-semibold md:tw-text-3xl lg:tw-text-5xl"
                 >
                   Empowering the Next Generation of Leaders
                 </div>
-                <div class="font-serif text-lg lg:text-2xl">
+                <div class="tw-font-serif tw-text-lg lg:tw-text-2xl">
                   Application Deadline: March 26, 2023
                 </div>
-                <div class="mt-4">
+                <div class="tw-mt-4">
                   <a
-                    class="text-shadow-0 inline-flex items-center rounded-md bg-brandingRed-400 px-2 py-2 font-bold capitalize text-white shadow-md transition-all ease-in-out hover:scale-110 md:text-lg"
+                    class="text-shadow-0 tw-inline-flex tw-items-center tw-rounded-md tw-bg-brandingRed-400 tw-px-2 tw-py-2 tw-font-bold tw-capitalize tw-text-white tw-shadow-md tw-transition-all tw-ease-in-out hover:tw-scale-110 md:tw-text-lg"
                     href="http://"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -194,18 +196,20 @@
               </div>
             </div>
             <div
-              class="overlay absolute z-10 h-full w-full bg-black/75 md:hidden"
+              class="overlay tw-absolute tw-z-10 tw-h-full tw-w-full tw-bg-black/75 md:tw-hidden"
             ></div>
             <img
               src="./images/swiper-banner/scholarship-new.jpg"
-              class="hidden md:block"
+              class="tw-hidden md:tw-block"
               alt=""
               srcset=""
             />
-            <div class="absolute flex h-full items-center">
+            <div
+              class="[mobile] tw-absolute tw-flex tw-h-full tw-w-full tw-items-center"
+            >
               <img
                 src="./images/swiper-banner/scholarship-new-mobile.jpg"
-                class="h-full object-cover md:hidden"
+                class="tw-h-full tw-w-full tw-object-cover md:tw-hidden"
                 alt=""
                 srcset=""
               />
