@@ -15,6 +15,10 @@ module.exports = {
       fontFamily: {
         serif: ["Playfair Display, serif"],
       },
+      screens: {
+        "3xl": "1600px",
+        "4xl": "1720px",
+      },
     },
   },
   plugins: [],
