@@ -41,6 +41,7 @@
     <link rel="stylesheet" href="../remodal/dist/remodal-default-theme.css">
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59046801-1"></script>
+<link rel="stylesheet" href="../css/swiper-banners.css">
 </head>
 
 <body>
@@ -54,28 +55,32 @@
     <!-- loading End -->
     <!-- HEADER  -->
     <header class="header-06 white">
-        <?php include '../inc/header.php';?>
+        <?php include '../inc/header.php'; ?>
     </header>
     <!-- /HEADER END -->
     <!-- search -->
     <div class="search hidden">
-        <?php include '../inc/site-search.php';?>
+        <?php include '../inc/site-search.php'; ?>
     </div>
     <!-- /search END -->
     <!--======= Breadcrumb Left With BG Image =======-->
-    <section class="overview-block-ptb1 iq-over-black-10 jarallax iq-breadcrumb3 text-left iq-font-white" style="background-color: #575757;">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-12">
-                    <div class="iq-mb-0">
-                        <h2 class="iq-font-white iq-tw-6 custom-header">Rates & Fees - Business</h2>
-                    </div>
+    <section class="tw-mt-[76px] tw-bg-brandingGreen-400">
+        <div class="">
+            <div
+                class="tw-flex tw-max-w-[1920px] tw-items-center tw-justify-center tw-gap-12 lg:tw-min-h-[250px] lg:tw-justify-start">
+                <img src="../images/inner-header/inner-pattern.png" alt=""
+                    class="tw-absolute tw-hidden tw-h-[250px] tw-w-[675px] tw-object-cover lg:tw-block" srcset="" />
+                <div class="tw-mx-auto tw-flex tw-w-full container tw-px-[15px]">
+                    <h1
+                        class="tw-text-shadow tw-md:text-4xl tw-py-8 tw-font-serif tw-text-2xl tw-font-bold tw-text-white lg:tw-text-5xl">
+                        Rates & Fees - Business
+                    </h1>
                 </div>
             </div>
         </div>
     </section>
 	<!--HIDDEN NAV-->
-	<?php include '../inc/rate-fees-personal-hidden-nav.php';?>
+	<?php include '../inc/rate-fees-personal-hidden-nav.php'; ?>
     <!--======= Breadcrumb Left With BG Image =======-->
     <!--=================================
 MAIN CONTENT -->
@@ -96,7 +101,7 @@ Tabs -->
 							</li>
 							
                         </ul>
-                         <div class="green-bg iq-mt-30 iq-pall-20">
+                         <div class="red-bg iq-mt-30 iq-pall-20">
                             <h6 class="iq-tw-6 iq-font-black small-title white">How can We Help You?</h6>
                             <div class="iq-font-white">Access your account at PFCU 24hr a day with Home Banking or call us at 1(877)PFCU4YO (732-8496) or call/text us at (404) 297-9797. 
 </div>
@@ -125,11 +130,11 @@ Tabs -->
 											
                                     <div id="accordion">
 										
-										<div class="row">
+										<!-- <div class="row">
 												<div class="col-sm-12">
 													<h3 class="iq-pb-25">Business</h3>
 												</div>
-											</div>
+											</div> -->
 									<div class="card">
 											<div class="card-header" id="headingOne2">
 												<h5 class="mb-0">
@@ -1138,7 +1143,7 @@ $100,000 &amp; above
             </div>
         </div>
 		<!--HIDDEN GREEN-->
-		<?php include '../inc/hidden-green.php';?>
+		<?php include '../inc/hidden-green.php'; ?>
         <!--=================================
 Tabs -->
     </div>
@@ -1147,7 +1152,7 @@ Main Content -->
     <!--=================================
 Footer -->
     <footer class="iq-footer6">
-        <?php include '../inc/footer.php';?>
+        <?php include '../inc/footer.php'; ?>
     </footer>
     <!--=================================
 Footer -->
@@ -1157,8 +1162,8 @@ Footer -->
         <a class="top" id="top" href="#top" aria-label="button to return to top of page"><img src="" alt="Image to go to top of page" style="display:none;"> <i class="ion-ios-arrow-up"></i> </a>
     </div>
     <!-- back-to-top End -->
-	<?php include '../inc/modals.php';?>
-    <?php include '../inc/inner-scripts.php';?>
+	<?php include '../inc/modals.php'; ?>
+    <?php include '../inc/inner-scripts.php'; ?>
 </body>
 
 </html>
