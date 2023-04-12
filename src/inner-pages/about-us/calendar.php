@@ -1,9 +1,7 @@
 <!doctype html>
 <html lang="en">
 
-<?php
-$current = "Calendar"
-?>
+<?php $current = "Calendar"; ?>
 
 <?php
 $title = $current;
@@ -21,28 +19,21 @@ include '../inc/head.php';
     <!-- loading End -->
     <!-- HEADER  -->
     <header class="header-06 white">
-        <?php include '../inc/header.php';?>
+        <?php include '../inc/header.php'; ?>
     </header>
     <!-- /HEADER END -->
     <!-- search -->
     <div class="search hidden">
-        <?php include '../inc/site-search.php';?>
+        <?php include '../inc/site-search.php'; ?>
     </div>
     <!-- /search END -->
     <!--======= Breadcrumb Left With BG Image =======-->
-    <section class="overview-block-ptb1 iq-over-black-10 jarallax iq-breadcrumb3 text-left iq-font-white" style="background-color: #575757;">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-12">
-                    <div class="iq-mb-0">
-                        <h2 class="iq-font-white iq-tw-6 custom-header">About Us</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php
+    $page_title = $current;
+    include '../inc/about-hero.php';
+    ?>
 	<!---------------HIDDEN NAVIGATION----------------->
-			<?php include '../inc/about-hidden-nav.php';?>
+			<?php include '../inc/about-hidden-nav.php'; ?>
 	<!---------------HIDDEN NAVIGATION----------------->
 
     <!--======= Breadcrumb Left With BG Image =======-->
@@ -85,7 +76,7 @@ Tabs -->
                                 <a class="nav-link active" href="calendar.php">Calendar</a>
                             </li>
                         </ul>
-                          <div class="green-bg iq-mt-30 iq-pall-20">
+                          <div class="red-bg iq-mt-30 iq-pall-20">
                             <h6 class="iq-tw-6 iq-font-black small-title white">How can We Help You?</h6>
                             <div class="iq-font-white">Access your account at PFCU 24hr a day with Home Banking or call us at 1(877)PFCU4YO (732-8496) or call/text us at (404) 297-9797. 
 </div>
@@ -103,11 +94,11 @@ Tabs -->
                         <!-- Tab panes -->
                         <div class="tab-content">
                             <div class="tab-pane fade show active">
-                                <div class="row">
+                                <!-- <div class="row">
                                     <div class="col-sm-12">
 										<h3 class="iq-pb-25">Calendar</h3>
                                     </div>
-                                </div>
+                                </div> -->
 								<div class="row">
                                     <div class="col-sm-12">
 										<p align="center" class="resp-container1"><iframe class="resp-iframe" src="https://calendar.google.com/calendar/embed?src=nkual13a1m2ngm5rac7okckmc4%40group.calendar.google.com&amp;ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no" title="Calendar Illustration"></iframe></p>
@@ -122,7 +113,7 @@ Tabs -->
             </div>
         </div>
 		<!--HIDDEN GREEN-->
-		<?php include '../inc/hidden-green.php';?>
+		<?php include '../inc/hidden-green.php'; ?>
         <!--=================================
 Tabs -->
     </div>
@@ -131,7 +122,7 @@ Main Content -->
     <!--=================================
 Footer -->
     <footer class="iq-footer6">
-        <?php include '../inc/footer.php';?>
+        <?php include '../inc/footer.php'; ?>
     </footer>
     <!--=================================
 Footer -->
@@ -141,8 +132,8 @@ Footer -->
         <a class="top" id="top" href="#top" aria-label="button to return to top of page"><img src="" alt="Image to go to top of page" style="display:none;"> <i class="ion-ios-arrow-up"></i> </a>
     </div>
     <!-- back-to-top End -->
-	<?php include '../inc/modals.php';?>
-    <?php include '../inc/inner-scripts.php';?>
+	<?php include '../inc/modals.php'; ?>
+    <?php include '../inc/inner-scripts.php'; ?>
 </body>
 
 </html>
