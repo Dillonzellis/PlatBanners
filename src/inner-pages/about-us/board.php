@@ -1,9 +1,7 @@
 <!doctype html>
 <html lang="en">
 
-<?php
-$current = "Board of Directors"
-?>
+<?php $current = "Board of Directors"; ?>
 
 <?php
 $title = $current;
@@ -20,11 +18,7 @@ include '../inc/head.php';
     <!-- loading End -->
     <!-- HEADER  -->
     <header class="header-06 white">
-        
-<?php
-$page_title = $current;
-include '../inc/header.php';
-?>
+        <?php include '../inc/header.php'; ?>
     </header>
     <!-- /HEADER END -->
     <!-- search -->
@@ -33,7 +27,10 @@ include '../inc/header.php';
     </div>
     <!-- /search END -->
     <!--======= Breadcrumb Left With BG Image =======-->
-    <?php include '../inc/about-hero.php'; ?>
+    <?php
+    $page_title = $current;
+    include '../inc/about-hero.php';
+    ?>
     <!---------------HIDDEN NAVIGATION----------------->
     <?php include '../inc/about-hidden-nav.php'; ?>
     <!---------------HIDDEN NAVIGATION----------------->
@@ -78,7 +75,7 @@ Tabs -->
                                 <a class="nav-link" href="calendar.php">Calendar</a>
                             </li>
                         </ul>
-                        <div class="green-bg iq-mt-30 iq-pall-20">
+                        <div class="red-bg iq-mt-30 iq-pall-20">
                             <h6 class="iq-tw-6 iq-font-black small-title white">How can We Help You?</h6>
                             <div class="iq-font-white">Access your account at PFCU 24hr a day with Home Banking or call us at 1(877)PFCU4YO (732-8496) or call/text us at (404) 297-9797.
                             </div>
