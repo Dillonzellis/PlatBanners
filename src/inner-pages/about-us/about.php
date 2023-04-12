@@ -13,7 +13,7 @@
     <!-- loading End -->
     <!-- HEADER  -->
     <header class="header-06 white">
-        <?php include '../inc/header.php'; ?>
+        <?php $page_title = "About Us"; include '../inc/header.php'; ?>
     </header>
     <!-- /HEADER END -->
     <!-- search -->
