@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Platinum FCU - About Us</title>
+    <title>Platinum FCU - Board of Directors</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -41,6 +41,7 @@
     <link rel="stylesheet" href="../remodal/dist/remodal-default-theme.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59046801-1"></script>
+    <link rel="stylesheet" href="../css/swiper-banners.css">
 </head>
 
 <body>
@@ -62,17 +63,7 @@
     </div>
     <!-- /search END -->
     <!--======= Breadcrumb Left With BG Image =======-->
-    <section class="overview-block-ptb1 iq-over-black-10 jarallax iq-breadcrumb3 text-left iq-font-white" style="background-color: #575757;">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-12">
-                    <div class="iq-mb-0">
-                        <h2 class="iq-font-white iq-tw-6 custom-header">About Us</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<?php include '../inc/about-hero.php'; ?>
 
     <!---------------HIDDEN NAVIGATION----------------->
     <?php include '../inc/about-hidden-nav.php'; ?>
@@ -118,7 +109,7 @@ Tabs -->
                                 <a class="nav-link" href="calendar.php">Calendar</a>
                             </li>
                         </ul>
-                        <div class="green-bg iq-mt-30 iq-pall-20">
+                        <div class="red-bg iq-mt-30 iq-pall-20">
                             <h6 class="iq-tw-6 iq-font-black small-title white">How can We Help You?</h6>
                             <div class="iq-font-white">Access your account at PFCU 24hr a day with Home Banking or call us at 1(877)PFCU4YO (732-8496) or call/text us at (404) 297-9797.
                             </div>
