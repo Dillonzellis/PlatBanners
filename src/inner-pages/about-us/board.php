@@ -41,6 +41,7 @@
     <link rel="stylesheet" href="../remodal/dist/remodal-default-theme.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59046801-1"></script>
+    <link rel="stylesheet" href="../css/swiper-banners.css">
 </head>
 
 <body>
@@ -62,17 +63,7 @@
     </div>
     <!-- /search END -->
     <!--======= Breadcrumb Left With BG Image =======-->
-    <section class="overview-block-ptb1 iq-over-black-10 jarallax iq-breadcrumb3 text-left iq-font-white" style="background-color: #575757;">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-12">
-                    <div class="iq-mb-0">
-                        <h2 class="iq-font-white iq-tw-6 custom-header">About Us</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php include '../inc/about-hero.php'; ?>
     <!---------------HIDDEN NAVIGATION----------------->
     <?php include '../inc/about-hidden-nav.php'; ?>
     <!---------------HIDDEN NAVIGATION----------------->

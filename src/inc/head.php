@@ -1,4 +1,4 @@
-
+<head>
     <title><?php echo $title; ?></title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -39,3 +39,4 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59046801-1"></script>
     <link rel="stylesheet" href="../css/swiper-banners.css">
+</head>
