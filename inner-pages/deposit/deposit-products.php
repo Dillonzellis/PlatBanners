@@ -36,11 +36,6 @@
     <link href="../css/responsive.css" rel="stylesheet" type="text/css" />
     <!-- custom -->
     <link href="../css/custom.css" rel="stylesheet" type="text/css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet" />
     <link rel="stylesheet" href="../css/swiper-banners.css">
 </head>
 
@@ -62,6 +57,7 @@
         <?php include '../inc/site-search.php';?>
     </div>
     <!-- /search END -->
+    <!--======= Breadcrumb Left With BG Image =======-->
     <section class="tw-mt-[76px] tw-bg-brandingGreen-400">
         <div class="">
             <div
@@ -69,12 +65,10 @@
                 <img src="../images/inner-header/inner-pattern.png" alt=""
                     class="tw-absolute tw-hidden tw-h-[250px] tw-w-[675px] tw-object-cover lg:tw-block" srcset="" />
                 <div class="tw-mx-auto tw-flex tw-w-full container tw-px-[15px]">
-
                     <h1
                         class="tw-text-shadow tw-md:text-4xl tw-py-8 tw-font-serif tw-text-2xl tw-font-bold tw-text-white lg:tw-text-5xl">
                         Deposit Products
                     </h1>
-
                 </div>
             </div>
         </div>
@@ -87,9 +81,9 @@ MAIN CONTENT -->
     <div class="main-content">
         <!--=================================
 Tabs -->
-        <div class="iq-tab6" style="padding-block: 2rem;">
+        <div class="overview-block-ptb iq-tab6">
             <div class="container">
-                <div class="row flex-col-reverse-max">
+                <div class="row">
                     <div class="col-lg-3 col-md-4 col-sm-12 iq-mtb-15">
                         <!-- Nav tabs -->
                         <ul class="nav nav-pills tabs-left" id="pills-tab">
@@ -100,9 +94,8 @@ Tabs -->
                                 <a class="nav-link" href="personal-deposit.php">Personal Deposits</a>
                             </li>
                         </ul>
-                        <div class="iq-mt-30 iq-pall-20" style="background-color:#b2191e"">
-                            <h6 style=" color:white" class="iq-tw-6 iq-font-black small-title white">How can We Help
-                            You?</h6>
+                        <div class="red-bg iq-mt-30 iq-pall-20">
+                            <h6 class="iq-tw-6 iq-font-black small-title white">How can We Help You?</h6>
                             <div class="iq-font-white">Access your account at PFCU 24hr a day with Home Banking or call
                                 us at 1(877)PFCU4YO (732-8496) or call/text us at (404) 297-9797.
                             </div>
@@ -123,6 +116,7 @@ Tabs -->
                             <div class="tab-pane fade show active">
                                 <div class="row">
                                     <div class="col-sm-12">
+                                        <!-- <h3 class="iq-pb-25">Deposit</h3> -->
                                         <p>Our community is known to keep the business within the community. Our
                                             community trade associations and the credit unions are a great example of
                                             this principle. That's why at PFCU you’ll find the products and services to
