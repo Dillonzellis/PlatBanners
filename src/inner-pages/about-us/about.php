@@ -1,7 +1,12 @@
 <!doctype html>
 <html lang="en">
 
-<?php $title = "About Us"; include('../inc/head.php');?>
+<?php $current = "About Us"; ?>
+
+<?php
+$title = $current;
+include '../inc/head.php';
+?>
 
 <body>
     <!-- loading -->
@@ -13,7 +18,7 @@
     <!-- loading End -->
     <!-- HEADER  -->
     <header class="header-06 white">
-        <?php $page_title = "About Us"; include '../inc/header.php'; ?>
+        <?php include '../inc/header.php'; ?>
     </header>
     <!-- /HEADER END -->
     <!-- search -->
@@ -22,7 +27,10 @@
     </div>
     <!-- /search END -->
     <!--======= Breadcrumb Left With BG Image =======-->
-<?php include '../inc/about-hero.php'; ?>
+    <?php
+    $page_title = $current;
+    include '../inc/about-hero.php';
+    ?>
 
     <!---------------HIDDEN NAVIGATION----------------->
     <?php include '../inc/about-hidden-nav.php'; ?>
